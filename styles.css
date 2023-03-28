@@ -130,11 +130,10 @@ button:active {
 .header__img--wrapper{
     padding: 20px;
     z-index: 3;
-    max-height: 0 auto;
 }
 
 .header__img {
-
+    max-height: 40vh;
 }
 
 .container {
