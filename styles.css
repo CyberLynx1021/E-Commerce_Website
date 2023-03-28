@@ -100,7 +100,7 @@ header {
 h1{
    font-size: 45px;
    color: #7342d6; 
-   margin-bottom:48px ;
+   margin-bottom:10px ;
    text-align: center;
    padding-top: 130px
 }
@@ -134,8 +134,8 @@ button:active {
 }
 
 .header__img {
-    max-height: 60vh;
-    padding-bottom: 80px
+    max-height: 71vh;
+    padding-bottom: 140px
 }
 
 .container {
