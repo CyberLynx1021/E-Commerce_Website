@@ -419,7 +419,7 @@ footer {
 
   h1 {
     font-size: 40px;
-    padding-top: 130px;
+    padding-top: 180px;
     margin-bottom: 48px;
     text-align: center;
   }
@@ -441,6 +441,7 @@ footer {
 /* SMALL PHONES, LARGE SMARTPHONES */
 @media (max-width: 550px) {
   .btn__menu {
+    z-index: 1;
     display: block;
   }
 
