@@ -1,8 +1,31 @@
 function renderBooks() {
-    console.log("renderBooks()")
-    }
+  const booksWrapper = document.querySelector('.books')
+  
+  booksWrapper.innerHTML = 
+    `<div class="book">
+    <figure class="book__img--wrapper">
+      <img class="book__img" src="./asset/Assets/deep work.jpeg" alt="">
+    </figure>
+    <div class="book__title">
+      Deep Work
+    </div>
+    <div class="book__ratings">
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star"></i>
+      <i class="fas fa-star-half-alt"></i>
+    </div>
+    <div class="book__price">
+      <span class="book__price--normal">$59.95</span> $14.95
+    </div>
+  </div>`
+      }
+
+    setTimeout(() => {
+      renderBooks();
+    });
     
-    renderBooks();
     // FAKE DATA
     function getBooks() {
       return new Promise((resolve) => {
