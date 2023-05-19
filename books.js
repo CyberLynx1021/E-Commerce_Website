@@ -1,5 +1,6 @@
 function renderBooks() {
   const booksWrapper = document.querySelector('.books');
+  console.log(books)
   const books = getBooks();
   const booksHtml = books.map((book) => {
    return  `<div class="book">
