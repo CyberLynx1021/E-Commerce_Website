@@ -41,7 +41,7 @@ if (!books){
   booksWrapper.innerHTML = booksHtml;
 }
 
-async function priceHTML(originalPrice, salePrice){
+ function priceHTML(originalPrice, salePrice){
   if(!salePrice) {
     return `$${originalPrice.toFixed(2)}`
   }
